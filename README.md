@@ -45,9 +45,8 @@ This repository contains a project that uses a Long Short-Term Memory (LSTM) neu
 <ul>
   <li><b>Loss Evaluation:</b> Calculate the test loss.</li>
   <li><b>Predictions:</b> Use 'adam' optimizer and 'mean_squared_error' loss function.</li>
-  <li><b>Data Reshaping:</b> Generate predictions on the test set..</li>
 </ul>
 
-Calculating Metrics
+5. <b>Calculating Metrics</b>
 Mean Absolute Error (MAE): Measure the average magnitude of errors.
 Custom Accuracy: Define accuracy based on predictions within a specified threshold (±0.5).

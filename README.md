@@ -3,7 +3,7 @@ This repository contains a project that uses a Long Short-Term Memory (LSTM) neu
 
 # Dataset
 
-The dataset used for this project includes the following columns:
+<p>The dataset is taken from kaggle (https://www.kaggle.com/datasets/dem0nking/video-game-ratings-dataset/data) :</p>
 
 <b>Title:</b> The name of the video game.
 
@@ -16,3 +16,30 @@ The dataset used for this project includes the following columns:
 <b>NumPlayers:</b> The number of players supported.
 
 <b>AvgRating:</b> The average rating of the game.
+
+# Project Structure
+
+Data Preprocessing
+
+Encoding Categorical Variables: Convert Title, Genre, and Platform to numerical values using LabelEncoder.
+Normalizing Numerical Variables: Scale ReleaseYear and NumPlayers to a range of 0 to 1 using MinMaxScaler.
+Feature and Label Preparation: Separate features (X) and the target variable (y).
+Data Splitting: Split the dataset into training and testing sets (80-20 split).
+Building the LSTM Model
+
+Model Definition: Create a sequential LSTM model with:
+Two LSTM layers with 50 units each and dropout for regularization.
+Dense layers for output.
+Model Compilation: Use 'adam' optimizer and 'mean_squared_error' loss function.
+Data Reshaping: Reshape input data to fit LSTM input requirements.
+Training the Model
+
+Train the model on the training data for 10 epochs with a batch size of 1.
+Evaluating the Model
+
+Loss Evaluation: Calculate the test loss.
+Predictions: Generate predictions on the test set.
+Calculating Metrics
+
+Mean Absolute Error (MAE): Measure the average magnitude of errors.
+Custom Accuracy: Define accuracy based on predictions within a specified threshold (±0.5).

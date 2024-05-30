@@ -19,7 +19,7 @@ This repository contains a project that uses a Long Short-Term Memory (LSTM) neu
 
 # Project Structure
 
-<b>Data Preprocessing</b>
+1. <b>Data Preprocessing</b>
 
 <ul>
   <li><b>Encoding Categorical Variables:</b> Convert Title, Genre, and Platform to numerical values using LabelEncoder.</li>
@@ -28,15 +28,17 @@ This repository contains a project that uses a Long Short-Term Memory (LSTM) neu
   <li><b>Data Splitting:</b> Split the dataset into training and testing sets (80-20 split).</li>
 </ul>
 
-Building the LSTM Model
-Model Definition: Create a sequential LSTM model with:
-Two LSTM layers with 50 units each and dropout for regularization.
-Dense layers for output.
-Model Compilation: Use 'adam' optimizer and 'mean_squared_error' loss function.
-Data Reshaping: Reshape input data to fit LSTM input requirements.
+2. <b>Building the LSTM Model</b>
 
-Training the Model
-Train the model on the training data for 10 epochs with a batch size of 1.
+<ul>
+  <li><b>Model Definition:</b> Create a sequential LSTM model with Two LSTM layers with 50 units each and dropout for regularization and some Dense layers for output.</li>
+  <li><b>Model Compilation:</b> Use 'adam' optimizer and 'mean_squared_error' loss function.</li>
+  <li><b>Data Reshaping:</b> SReshape input data to fit LSTM input requirements..</li>
+</ul>
+
+3. <b>Training the Model</b>
+
+ Train the model on the training data for 10 epochs with a batch size of 1.
 
 Evaluating the Model
 Loss Evaluation: Calculate the test loss.

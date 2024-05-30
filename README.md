@@ -33,16 +33,20 @@ This repository contains a project that uses a Long Short-Term Memory (LSTM) neu
 <ul>
   <li><b>Model Definition:</b> Create a sequential LSTM model with Two LSTM layers with 50 units each and dropout for regularization and some Dense layers for output.</li>
   <li><b>Model Compilation:</b> Use 'adam' optimizer and 'mean_squared_error' loss function.</li>
-  <li><b>Data Reshaping:</b> SReshape input data to fit LSTM input requirements..</li>
+  <li><b>Data Reshaping:</b> Reshape input data to fit LSTM input requirements.</li>
 </ul>
 
 3. <b>Training the Model</b>
 
  Train the model on the training data for 10 epochs with a batch size of 1.
 
-Evaluating the Model
-Loss Evaluation: Calculate the test loss.
-Predictions: Generate predictions on the test set.
+4. <b>Evaluating the Model</b>
+
+<ul>
+  <li><b>Loss Evaluation:</b> Calculate the test loss.</li>
+  <li><b>Predictions:</b> Use 'adam' optimizer and 'mean_squared_error' loss function.</li>
+  <li><b>Data Reshaping:</b> Generate predictions on the test set..</li>
+</ul>
 
 Calculating Metrics
 Mean Absolute Error (MAE): Measure the average magnitude of errors.

@@ -7,4 +7,12 @@ The dataset used for this project includes the following columns:
 
 <b>Title:</b> The name of the video game.
 
-Genre: The genre of the video game.
+<b>Genre:</b> The genre of the video game.
+
+<b>Platform:</b> The platform(s) on which the game is available.
+
+<b>ReleaseYear:</b> The year the game was released.
+
+<b>NumPlayers:</b> The number of players supported.
+
+<b>AvgRating:</b> The average rating of the game.

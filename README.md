@@ -36,9 +36,7 @@ This repository contains a project that uses a Long Short-Term Memory (LSTM) neu
   <li><b>Data Reshaping:</b> Reshape input data to fit LSTM input requirements.</li>
 </ul>
 
-3. <b>Training the Model</b>
-
- Train the model on the training data for 10 epochs with a batch size of 1.
+3. <p><b>Training the Model:</b> Train the model on the training data for 10 epochs with a batch size of 1.</p>
 
 4. <b>Evaluating the Model</b>
 

@@ -46,5 +46,8 @@ This repository contains a project that uses a Long Short-Term Memory (LSTM) neu
 </ul>
 
 5. <b>Calculating Metrics</b>
-Mean Absolute Error (MAE): Measure the average magnitude of errors.
-Custom Accuracy: Define accuracy based on predictions within a specified threshold (±0.5).
+
+<ul>
+  <li><b>Mean Absolute Error (MAE):</b> Measure the average magnitude of errors.</li>
+  <li><b>Custom Accuracy:</b> Define accuracy based on predictions within a specified threshold (±0.5)..</li>
+</ul>
